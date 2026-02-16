@@ -106,7 +106,6 @@ async function sendNotificationEmail(contactData) {
               <p style="margin: 0; font-size: 14px;">
                 <strong>Quick Actions:</strong><br>
                 Reply to: <a href="mailto:${contactData.email}" style="color: #4F46E5;">${contactData.email}</a><br>
-                Phone: <a href="tel:${contactData.phone || 'Not provided'}" style="color: #4F46E5;">${contactData.phone || 'Not provided'}</a>
               </p>
             </div>
           </div>
