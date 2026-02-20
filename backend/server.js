@@ -258,7 +258,7 @@ app.post('/api/contact', async (req, res) => {
     // Email format validation
     const emailRegex = /^\S+@\S+\.\S+$/;
     if (!emailRegex.test(email)) {
-      return res.status(400).json({ message: 'Please enter a valid email address' });
+      return res.status(400).json({ message: 'Please enter a valid email' });
     }
     
     if (!message || !message.trim()) {
